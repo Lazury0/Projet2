@@ -1,0 +1,20 @@
+h1 
+{
+    color: red;
+    font-size: 3em;
+}
+.img
+{
+    text-align: center;
+}
+ul
+{
+    border: #ffff 3px solid; 
+    box-shadow: grey 6px 6px 7px;
+    opacity: 0.5;
+
+}
+a:hover
+{
+    font-weight: bolder;
+}

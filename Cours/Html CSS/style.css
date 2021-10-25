@@ -1,0 +1,82 @@
+body 
+{
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}    
+h2
+{
+    color: rebeccapurple;
+}
+.ass 
+{
+    color: red;
+}
+.sse
+{
+    color: white;
+    text-align: right;
+}
+.testspan
+{
+    color: yellow;
+}
+*
+{
+    font-size: medium;
+}
+
+@font-face {
+    font-family: "alex";
+    src: url("./font/CallindaDEMORegular.ttf") format("truetype"),
+  }
+
+*
+{
+    font-family: 'alex', cursive;
+
+}
+
+div
+{
+    text-align: center;
+    /*font-family: ;*/
+    border: 3px solid;
+    border-width: medium;
+    border-radius: 2px;
+    border-color: brown;
+    border-block-color: rgb(122, 49, 49);
+    box-shadow: 6px 6px 0px darkorchid;
+    
+}
+/*div
+{
+    border: 3px blue dashed;
+}*/
+
+.image
+{
+    float: right;
+}
+.dessous
+{
+    clear: both;
+}
+.img2
+{
+    opacity: 0.5;
+}
+.texte:hover
+{
+   color: deeppink;
+}
+.texte:active
+{
+    background-color: deeppink;
+}
+h2:focus
+{
+    background-color: rgb(85, 57, 150);
+}
