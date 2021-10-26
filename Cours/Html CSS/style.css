@@ -29,32 +29,30 @@ h2
 }
 
 @font-face {
-    font-family: "alex";
-    src: url("./font/CallindaDEMORegular.ttf") format("truetype"),
+    font-family: "din";
+    src: url("font/AlexBrush-Regular.ttf") format("truetype");
   }
 
 *
 {
-    font-family: 'alex', cursive;
-
+    font-family: 'din', cursive;
 }
 
-div
+div 
 {
+    margin: auto;
     text-align: center;
-    /*font-family: ;*/
+    max-width: 200px;
+    max-height: 100px;
+    font-family:'Times New Roman', Times, serif;
     border: 3px solid;
     border-width: medium;
     border-radius: 2px;
     border-color: brown;
     border-block-color: rgb(122, 49, 49);
     box-shadow: 6px 6px 0px darkorchid;
-    
+    overflow: auto;
 }
-/*div
-{
-    border: 3px blue dashed;
-}*/
 
 .image
 {
@@ -66,6 +64,8 @@ div
 }
 .img2
 {
+    float: right;
+    max-width: 280px;
     opacity: 0.5;
 }
 .texte:hover
