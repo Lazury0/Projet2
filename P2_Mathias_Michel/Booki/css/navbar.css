@@ -1,0 +1,31 @@
+header nav ul
+{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+header nav li
+{
+    text-decoration: black;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    color:black;
+    float: right;
+  }
+  .navigation a:hover
+  {
+      color: #0066ff;
+      border-top: 2px solid;
+      border-color: #0066ff;
+      /* border-collapse:separate;
+      padding-top: 100px; */
+  }
+  .navigation
+  {
+      padding-top:30px;
+      float: right;
+  }

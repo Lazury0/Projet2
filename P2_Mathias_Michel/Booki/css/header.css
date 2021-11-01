@@ -1,0 +1,19 @@
+@font-face
+{
+    font-family: 'raleway';
+    src: url(font/Raleway/Raleway-VariableFont_wght.ttf) format(truetype);
+}
+*
+{
+    font-family: 'raleway', sans-serif;
+}
+.tete
+{
+    display: inline-flex;
+    /* flex-wrap: wrap; */
+}
+header img
+{
+padding: 30px;
+/* display: flex; */
+}
