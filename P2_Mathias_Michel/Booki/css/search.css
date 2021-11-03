@@ -10,19 +10,17 @@ section i
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     padding: 16.5px 19px;
-
 }
 .barre
 {
-    width: 12%;
+    width: 234px;
     height: 51px;
-    font-size: 20px;
-    font-weight: bold;
     border: none;
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 1rem;
+    font-weight: 600;
     padding-left: 20px;
-
 }
 .button
 {
@@ -37,31 +35,37 @@ section i
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
-/* .fas
+.button:hover
 {
-    display: inline-block;
-} */
+    cursor: pointer;
+}
+.filter h3
+{
+    margin-right: 10px;
+    
+}
 .filter
 {
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     justify-content: space-between;
-    max-width: 50%;
+    max-width: 60%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    
 }
 .filter button
 {
     background-color: rgba(255, 255, 255, 0);
-    border: 1px solid #F2F2F2;
-    justify-content: space-between;
+    border: 2px solid #F2F2F2;
     border-bottom-right-radius: 50px ;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
-    padding: 0px;
-    
-    
-
+    padding: 0 20px 0 0;
+    font-weight: 700;
+    font-size: 15px;
 }
 .filter button:hover
 {
@@ -73,5 +77,14 @@ section i
 {
     background-color: #DEEBFF;
     color: #0065fc;
-
+    border-bottom-right-radius: 50px ;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-color: rgba(255, 255, 255, 0);
+    margin-right: 24px;
+    margin-left: -2px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
 }
