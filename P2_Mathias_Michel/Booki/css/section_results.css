@@ -1,12 +1,13 @@
 .fa-info
 {
     font-size: 12px;
-    border: 2px solid #F2F2F2;
+    border: 2px solid var(--color3);
     border-radius: 50%;
     padding: 10px;
-    color: #0065fc;
+    color: var(--color1);
     background-color: white;
     margin-bottom: 20px;
+    height: 10;
 }
 
 .cannebiere
@@ -33,9 +34,9 @@
 {
     background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
-.imgmain 
+.imgc 
 {
-    width: 236px;
+    width: 98%;
     height: 114px;
     background-size: cover;
     background-position: center;
@@ -53,12 +54,20 @@
     flex-wrap: wrap;
     margin: 0;
     border: 1px solid #F2F2F2;
-    border-radius: 5%;
-    width: 50%;
-    padding: 30px;
-    background-color: #F2F2F2;
+    border-radius: 3%;
+    width: 62%;
+    padding: 25px;
+    background-color: var(--color3);
 	align-content: space-around;
 }
+#results p
+{
+    font-size: 14px;
+}
+/* #results h4
+{
+    font-weight: 900;
+} */
 .containerresults
 {
     display: flex;
@@ -69,7 +78,32 @@
 {
     display: flex;
     width: 30%;
+    height: 180;
     margin: 10px 0;
+    padding: 5px 0px 10px 5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
+}
+.resultscadres:hover, .resultscadrespop:hover
+{
+    box-shadow: 0px 0px 13px 0px rgb(255 255 255 / 25%);
+    background-color: var(--color2);
+}
+.card
+{
+    position: relative;
+    top: 115;
+    padding: 5 5 5 7;
+    /* border: 1px solid white; */
+}
+.card p
+{
+    margin: 6px 0;
+}
+.star
+{
+    font-size: 18px;
 }
 .resultscadres a,
 .resultscadrespop a
@@ -79,9 +113,11 @@
 }
 .afficherplus
 {
+    padding-top: 20px;
     text-decoration: none;
     color: black;
 }
+/***********************Les plus populaires*************************/
 .soleilmatin
 {
     background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
@@ -97,17 +133,79 @@
 .populaires
 {
     border: 1px solid #F2F2F2;
-    border-radius: 5%;
-    width: 30%;
-    padding: 30px;
-    background-color: #F2F2F2;
+    border-radius: 3%;
+    width: 28%;
+    padding: 25px;
+    background-color: var(--color3);
     display: flex;
     flex-direction: column;
+}
+.populaires h2::after
+{     
+    font-family: "Font Awesome Kit";
+    content: "\f201";
+    font-weight: 400;
+    /* display: none;  */
+}
+.populaires .fa-chart-line
+{
+    position: relative;
+    right: -390px;
+    top: 23;
+    font-size: 140%;
 }
 .resultscadrespop
 {
     display: flex;
-    width: 100%;
-    margin: 10px 0;
+    background-color: white;
+    margin: 30 0 0 0;
     border-radius: 10px;
+    width: auto;
+    height: 134px;
+    padding: 5px;
+    box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
+}
+.imgpop
+{
+    display: flex;
+    max-width: 150px;
+    width: auto;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+}
+
+.cardpop
+{
+    position: relative;
+    left: 168px;
+    height: 93%;
+    width: 100%;
+    padding: 5px 10px 5px 5px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+
+}
+.cardpop p
+{
+    margin: 10 0;
+}
+.star
+{
+    color: var(--color1);
+    position: relative;
+    top: -4px;
+}
+.grey
+{
+    color: var(--color3);
+}
+.pop
+{
+    position: absolute;
+    top: 100px;
+
 }

@@ -6,7 +6,7 @@ nav
     list-style-type: none;
     position: relative;
     top: -120px;
-    right: 14%;
+    right: 2%;
   }
 header nav 
 {
@@ -33,7 +33,7 @@ header nav li a
 }
 header nav ul li a:hover 
  {
-    border-top: solid 1px #0065fc;
+    border-top: solid 2px var(--color1);
     padding-top: 20px;
-    color: #0065fc;
+    color: var(--color1);
 }

@@ -1,0 +1,26 @@
+footer
+{
+    background-color: var(--color3);
+    margin-top: 30px;
+    padding: 50px 0px 20px 0px;
+}
+.footer
+{
+    max-width: 1380px;
+    display: flex;
+}
+.footercolumn
+{
+    margin-right: 200;
+    margin-left: 20;
+}
+.footercolumn ul li
+{
+    list-style-type: none;
+    margin: 20 0;
+}
+.footercolumn ul li a
+{
+    text-decoration: none;
+    color: black;
+}

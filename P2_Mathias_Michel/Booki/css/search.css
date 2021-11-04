@@ -1,11 +1,12 @@
 .search
 {
     display: flex;
+    padding-top: 15;
 }
-section i
+.fa-map-marker-alt
 {
-    background-color: #F2F2F2;
-    border: 1px solid #F2F2F2;
+    background-color: var(--color3);
+    border: 1px solid var(--color3);
     border-width: 30%;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
@@ -16,8 +17,8 @@ section i
     width: 234px;
     height: 51px;
     border: none;
-    border-top: 1px solid #f2f2f2;
-    border-bottom: 1px solid #f2f2f2;
+    border-top: 1px solid var(--color3);
+    border-bottom: 1px solid var(--color3);
     font-size: 1rem;
     font-weight: 600;
     padding-left: 20px;
@@ -26,12 +27,12 @@ section i
 {
     width: 130px;
     height: 51px;
-    background: #0065fc;
+    background: var(--color1);
     color: white;
     font-size: 100%;
     font-weight:900;
     padding: 8px;
-    border: 1px solid #0065fc;
+    border: 1px solid var(--color1);
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
 }
@@ -49,7 +50,7 @@ section i
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     max-width: 60%;
     flex-wrap: wrap;
     align-items: baseline;
@@ -58,33 +59,33 @@ section i
 .filter button
 {
     background-color: rgba(255, 255, 255, 0);
-    border: 2px solid #F2F2F2;
+    border: 2px solid var(--color3);
     border-bottom-right-radius: 50px ;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     padding: 0 20px 0 0;
+    margin-left: 15;
     font-weight: 700;
     font-size: 15px;
 }
 .filter button:hover
 {
-    background-color: #0065fc;
+    background-color: var(--color1);
     color: white;
 
 }
 .filter button i
 {
-    background-color: #DEEBFF;
-    color: #0065fc;
+    background-color: var(--color2);
+    color: var(--color1);
     border-bottom-right-radius: 50px ;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     border-color: rgba(255, 255, 255, 0);
-    margin-right: 24px;
-    margin-left: -2px;
-    /* display: flex; */
+    margin-right: 10px;
     align-items: center;
     justify-content: center;
+    padding: 10;
 }
