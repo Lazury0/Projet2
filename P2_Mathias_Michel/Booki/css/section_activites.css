@@ -73,3 +73,65 @@
 {
     padding: 15 20;
 }
+
+
+
+
+
+/* TEST MEDIA QUERIES */
+
+
+
+
+/* @media all and (max-width: 1200px)
+{
+    .activities h2 
+    {
+        padding-left: 20px;
+    }
+    .contentActivities 
+    {
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: auto;
+    }
+    .card-activity h4 
+    {
+        padding: 16.5px 22px;
+    }
+    .pic-activity 
+    {
+        width: 334px;
+        height: 134px !important;
+    }
+    .activity-link 
+    {
+        margin: 12px 0;
+    }
+}
+ 
+@media all and (min-width: 1024px) and (max-width: 1200px)
+{
+    .pic-activity 
+    {
+        width: 324px;
+    }
+}
+ 
+@media all and (min-width: 768px) and (max-width: 1200px)
+{
+    .contentActivities 
+    {
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+ 
+@media all and (min-width: 320px) and (max-width: 767px) 
+{
+    .pic-activity 
+    {
+        width: 318px;
+    }
+} */

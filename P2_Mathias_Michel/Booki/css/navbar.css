@@ -37,3 +37,60 @@ header nav ul li a:hover
     padding-top: 20px;
     color: var(--color1);
 }
+
+
+
+
+/* TEST MEDIA QUERIES */
+
+
+
+/* @media screen and (max-width: 768px)
+{
+  header nav 
+{
+    flex-basis: 100%;
+    order: 2;
+    display: flex;
+    position: relative;
+}
+  header nav ul li 
+{
+    border-top: none;
+    width: 50%;
+    text-align: center;
+    padding: 10px 0 10px 8%;
+}
+  header nav ul .li-lod a, header nav ul .li-act a
+{
+    text-align: center;
+    justify-content: space-between;
+}
+  header nav ul .li-lod a
+{
+    padding-right: 80px;
+}
+  header nav ul .li-act a
+{
+    padding-right: 40px;
+}
+  header nav ul li a:hover 
+{
+    border-bottom: solid 3px #0065fc;
+}
+  header nav ul li a:hover 
+{
+    border-top: none;
+}
+  header nav li a 
+{
+    margin-right: 30px;
+    padding-left: 50px;
+}
+  header nav p 
+  {
+    position: absolute;
+    top: -60px;
+    padding: 0px 25px 0px 0;
+  }
+} */

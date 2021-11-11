@@ -3,16 +3,16 @@ footer
     background-color: var(--color3);
     margin-top: 30px;
     padding: 50px 0px 20px 0px;
+
 }
 .footer
 {
-    max-width: 1380px;
     display: flex;
+    justify-content:space-evenly;
 }
 .footercolumn
 {
     margin-right: 200;
-    margin-left: 20;
 }
 .footercolumn ul li
 {
@@ -24,3 +24,41 @@ footer
     text-decoration: none;
     color: black;
 }
+
+
+
+/* TEST MEDIA QUERIES */
+
+
+/* @media all and (max-width: 1024px)
+{
+    .footercontent 
+    {
+        flex-direction: column;
+    }
+    footer h3 
+    {
+        padding: 46px 0 9px 0;
+    }
+    .footercontent div 
+    {
+        margin-right: 0;
+        margin-left: 20px;
+        padding-bottom: 0;
+    } 
+}
+@media all and (min-width: 1200px)
+{
+    .footercontent 
+    {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 767px) 
+{
+    footer
+    {
+        padding: 15px;
+    }
+} */
