@@ -42,8 +42,8 @@
     height: 114px;
     background-size: cover;
     background-position: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #results
 {
@@ -54,13 +54,12 @@
 {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
     border: 1px solid #F2F2F2;
     border-radius: 3%;
     width: 62%;
     padding: 25px;
     background-color: var(--color3);
-	align-content: space-around;
+	/* align-content: space-around; */
 }
 #results p
 {
@@ -83,7 +82,7 @@
     height: 180;
     margin: 10px 0;
     padding: 5px 0px 10px 5px;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: white;
     box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
 }
@@ -119,23 +118,30 @@
     text-decoration: none;
     color: black;
 }
+.afficherplus:hover
+{
+    color: var(--color1);
+}
 /***********************Les plus populaires*************************/
 .soleilmatin
 {
     background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    width: 155;
 }
 .coeureau
 {
     background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+    max-width: 155;
 }
 .bleublanc
 {
     background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+    max-width: 155;
 }
 .populaires
 {
     border: 1px solid #F2F2F2;
-    border-radius: 3%;
+    border-radius: 5%;
     width: 28%;
     padding: 25px;
     background-color: var(--color3);
@@ -144,6 +150,7 @@
 }
 .fleche
 {
+    margin: 1 0 ;
     display: flex;
     justify-content: space-between;
 }
@@ -163,8 +170,8 @@
     display: flex;
     background-color: white;
     margin: 30 0 0 0;
-    border-radius: 5px;
-    width: auto;
+    border-radius: 15px;
+    /* width: auto; */
     height: 134px;
     padding: 5px;
     box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
@@ -172,26 +179,19 @@
 .imgpop
 {
     display: flex;
-    max-width: 150px;
-    width: auto;
-    height: 100%;
+    justify-content: space-between;
     background-size: cover;
-    background-position: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
-
 .cardpop
 {
     position: relative;
-    left: 168px;
-    height: 93%;
-    width: 100%;
-    padding: 5px 10px 5px 5px;
-    /* background-color: white; */
     display: flex;
-    flex-direction: column;
-
+    flex-wrap: wrap;
+    left: 160px;
+    padding: 5px 10px 5px 5px;
+    /* max-width: 150; */
 }
 .cardpop p
 {
@@ -219,7 +219,7 @@
 /* TEST MEDIA QUERIES */
 
 
-/* 
+
 @media screen and (max-width: 768px) {
     .results h2 {
         font-size: 22px;
@@ -231,49 +231,49 @@
     {
         margin: 0 20px;
     }
-    .containerresults 
+    #results 
     {
         flex-direction: column-reverse;
         max-height: none;
     }
-    .popular 
+    .populaires 
     {
         width: auto;
         margin: 0;
         border-radius: 0;
     }
-    .popular h2 
+    .populaires h2 
     {
         padding-bottom: 26px;
     }  
-    .popular .containercard 
+    .populaires .containpopulaires
     {
         margin: 0 20px;
     }
-    .popular .cardlink 
+    .populaires .imgpop 
     {
         margin: 5px 0;
     }
-    .resultscontainer 
+    .results 
     {
         background: none;
     }
-    .resultscontainer h2 
+    .results h2 
     {
         padding: 0;
         margin-left: 20px;
     }
-    .more 
+    .afficherplus 
     {
         padding: 0;
         margin-left: 20px;
     }
-    .imgmain 
+    .imgc 
     {
         width: 326px;
         height: 114px;
     }
-    .resultscontainer .cardlink 
+    .results .cardlink 
     {
         margin: 6px 0;
     }
@@ -281,15 +281,15 @@
 
 @media all and (min-width: 1024px) and (max-width: 1200px)
 {
-    .popular 
+    .populaires 
     {
         align-items: center;
     }
-    .cardpopular 
+    .cardpopulaires 
     {
         width: 316px;
     }
-    .popular .cardlink 
+    .populaires .cardlink 
     {
         margin: 5px;
     }
@@ -297,33 +297,33 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px)
 {
-    .popular 
+    .populaires 
     {
         align-items: flex-start;
     }
-    .popular .containercard 
+    .populaires .containercard 
     {
         flex-direction: row;
         justify-content: flex-start;
         margin: 0;
     }
-    .popular .cardlink 
+    .populaires .cardlink 
     {
         margin: 5px 10px;
     }
-    .popular h2 
+    .populaires h2 
     {
         margin-left: 10px;
     }
-    .popular .fa-chart-line 
+    .populaires .fa-chart-line 
     {
         margin-left: 20px;
     }
-    .resultscontainer 
+    .results 
     {
         align-self: center;
     }
-    .resultscontainer .containercard 
+    .results .containercard 
     {
         justify-content: space-between;
         margin-left: 10px;
@@ -333,25 +333,25 @@
 
 @media all and (min-width: 320px) and (max-width: 767px) 
 {
-    .popular
+    .populaires
     {
         width: auto;
         margin: 0;
     }
-    .resultscontainer
+    .results
     {
         margin: 0;
     }
-    .cardpopular 
+    .cardpopulaires 
     {
         width: 306px;
     }
-    .popular .fa-chart-line 
+    .populaires .fa-chart-line 
     {
         margin-left: 30px;
     }
-    .imgmain 
+    .imgc 
     {
         width: 306px;
     }
-} */
+}

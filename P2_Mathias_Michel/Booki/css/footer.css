@@ -30,9 +30,9 @@ footer
 /* TEST MEDIA QUERIES */
 
 
-/* @media all and (max-width: 1024px)
+@media all and (max-width: 1024px)
 {
-    .footercontent 
+    .footer 
     {
         flex-direction: column;
     }
@@ -40,7 +40,7 @@ footer
     {
         padding: 46px 0 9px 0;
     }
-    .footercontent div 
+    .footer div 
     {
         margin-right: 0;
         margin-left: 20px;
@@ -49,7 +49,7 @@ footer
 }
 @media all and (min-width: 1200px)
 {
-    .footercontent 
+    .footer 
     {
         flex-direction: row;
         justify-content: space-around;
@@ -61,4 +61,4 @@ footer
     {
         padding: 15px;
     }
-} */
+}

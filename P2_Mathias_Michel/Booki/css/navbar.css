@@ -10,7 +10,7 @@ nav
   }
 header nav 
 {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     justify-content: flex-end;
     list-style: none;
@@ -45,34 +45,23 @@ header nav ul li a:hover
 
 
 
-/* @media screen and (max-width: 768px)
+@media screen and (max-width: 768px)
 {
-  header nav 
+  header nav
+  {
+    margin-left: 15px;
+  }
+  header nav ul
 {
-    flex-basis: 100%;
-    order: 2;
     display: flex;
     position: relative;
+    top: 100px;
 }
-  header nav ul li 
+  header nav ul li
 {
-    border-top: none;
-    width: 50%;
+    width: 100%;
     text-align: center;
-    padding: 10px 0 10px 8%;
-}
-  header nav ul .li-lod a, header nav ul .li-act a
-{
-    text-align: center;
-    justify-content: space-between;
-}
-  header nav ul .li-lod a
-{
-    padding-right: 80px;
-}
-  header nav ul .li-act a
-{
-    padding-right: 40px;
+    justify-content: space-around;
 }
   header nav ul li a:hover 
 {
@@ -84,13 +73,12 @@ header nav ul li a:hover
 }
   header nav li a 
 {
-    margin-right: 30px;
-    padding-left: 50px;
+  padding-bottom: 10px;
 }
-  header nav p 
+  /* header nav p 
   {
     position: absolute;
     top: -60px;
     padding: 0px 25px 0px 0;
-  }
-} */
+  } */
+}

@@ -49,14 +49,6 @@ header img
 /* TEST MEDIA QUERIES */
 
 
-
-/* @media (min-width:769px) {
-    header {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-}
 @media screen and (max-width: 768px)
 {
     header 
@@ -68,22 +60,28 @@ header img
 
     header img
     {
-        padding: 0 !important;
-        margin-left: 40px;
+        padding: 0 0;
+        padding-left: 50%;
     }
-    header .headertitle 
+    header .titre 
     {
         order: 3;
-        margin: 20px 0 0 ;
-        text-align: center;
+        margin: 20px 0 0 30px;
+        text-align: left;
+        width: 350;
     }
-    header .headertitle h2 
+    header .titre h2 
     {
         font-size: 20px;
     }
-    header .headertitle p
+    header .titre p
     {
-        font-size: 14px;
-        margin: 10px 50px 10px ;
+        /* font-size: 14px; */
+        /* margin: 10px 50px 10px ; */
     }
-} */
+    .container
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+} 

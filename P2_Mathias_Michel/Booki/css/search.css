@@ -36,6 +36,10 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+.fa-search
+{
+    display: none;
+}
 .button:hover
 {
     cursor: pointer;
@@ -51,7 +55,6 @@
     margin-top: 30px;
     margin-bottom: 30px;
     /* justify-content: space-between; */
-    max-width: 60%;
     flex-wrap: wrap;
     align-items: baseline;
     
@@ -99,48 +102,25 @@
 
 /* TEST MEDIA QUERIES */
 
-/* @media all and (max-width: 960px)
+@media all and (max-width: 992px)
 {
-    .search-filter
+    #search
     {
-        margin: 5px 5px 5px 5px;
+        margin: 90px 5px 5px 5px;
     }
-    .search-filter .search-bar 
-    {
-        margin:0;
-    }  
-    .search-filter .search-bar .city 
-    {
-        width: 190px;
-    }
-    .search-filter .search-bar .btnsearch 
+    .search .button 
     {
         display: block;
         width: 51px;
         height: 51px;
-        border: none;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        background-color: #0065fc;
-        color: white;
     }
-    .search-filter .search-bar .btnsearch span
+    .search .button span
     {
         display: none;
     }
-    .search-filter .search-bar .btnsearch .fa-search 
+    .search .button .fa-search 
     {
         display: block;
-        visibility: visible;
-        color: white;
-    }
-    .search-filter .btnsearch .fa-search:hover 
-    {
-        color: #0065fc;
-        background-color: #deebff;
-        border: 1px solid #0065fc;
     }
     .filter 
     {
@@ -151,13 +131,14 @@
         margin: 0 10px 12px 0;
         font-size: 0.9rem;
     }
-    .filter h3 
+    .filter h4
     {
         flex-basis: 100%;
+        padding-bottom: 10px;
     }
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) 
+@media all and (min-width: 320px) and (max-width: 768px) 
 {
     .filter
     {
@@ -165,4 +146,4 @@
         flex-direction: column;
         flex-wrap: wrap;
     }
-} */
+}

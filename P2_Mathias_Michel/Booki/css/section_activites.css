@@ -83,36 +83,32 @@
 
 
 
-/* @media all and (max-width: 1200px)
+@media all and (max-width: 1200px)
 {
-    .activities h2 
+    #activities h2 
     {
         padding-left: 20px;
     }
-    .contentActivities 
+    .sectionactivites 
     {
         flex-direction: row;
         justify-content: space-evenly;
         height: auto;
     }
-    .card-activity h4 
+    .activiescard h4 
     {
         padding: 16.5px 22px;
     }
-    .pic-activity 
+    .cardimg 
     {
         width: 334px;
         height: 134px !important;
-    }
-    .activity-link 
-    {
-        margin: 12px 0;
     }
 }
  
 @media all and (min-width: 1024px) and (max-width: 1200px)
 {
-    .pic-activity 
+    .cardimg 
     {
         width: 324px;
     }
@@ -120,7 +116,7 @@
  
 @media all and (min-width: 768px) and (max-width: 1200px)
 {
-    .contentActivities 
+    .sectionactivites 
     {
         justify-content: space-between;
         margin-left: 10px;
@@ -130,8 +126,8 @@
  
 @media all and (min-width: 320px) and (max-width: 767px) 
 {
-    .pic-activity 
+    .cardimg 
     {
         width: 318px;
     }
-} */
+}
