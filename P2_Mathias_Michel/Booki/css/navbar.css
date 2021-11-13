@@ -4,19 +4,10 @@ nav
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    position: relative;
-    top: -120px;
-    right: 2%;
+    margin-right: 20px;
+    margin-top: 23;
+
   }
-header nav 
-{
-    /* flex: 1; */
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin-top: 30px;
-    margin-left: -30px;
-}
 header nav li 
 {
     list-style: none;
@@ -36,49 +27,4 @@ header nav ul li a:hover
     border-top: solid 2px var(--color1);
     padding-top: 20px;
     color: var(--color1);
-}
-
-
-
-
-/* TEST MEDIA QUERIES */
-
-
-
-@media screen and (max-width: 768px)
-{
-  header nav
-  {
-    margin-left: 15px;
-  }
-  header nav ul
-{
-    display: flex;
-    position: relative;
-    top: 100px;
-}
-  header nav ul li
-{
-    width: 100%;
-    text-align: center;
-    justify-content: space-around;
-}
-  header nav ul li a:hover 
-{
-    border-bottom: solid 3px #0065fc;
-}
-  header nav ul li a:hover 
-{
-    border-top: none;
-}
-  header nav li a 
-{
-  padding-bottom: 10px;
-}
-  /* header nav p 
-  {
-    position: absolute;
-    top: -60px;
-    padding: 0px 25px 0px 0;
-  } */
 }

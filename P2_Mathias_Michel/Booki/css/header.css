@@ -32,56 +32,17 @@ header img
     max-width: auto;
     padding: 30px 0px 40px 10px;
 }
-.titre
+/* .titre
 {
     position: absolute;
     top: 115;
-}
+} */
 .titre p
 {
     margin-top: 10px;
 }
-
-
-
-
-
-/* TEST MEDIA QUERIES */
-
-
-@media screen and (max-width: 768px)
+.tete
 {
-    header 
-    {
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 30px;
-    }
-
-    header img
-    {
-        padding: 0 0;
-        padding-left: 50%;
-    }
-    header .titre 
-    {
-        order: 3;
-        margin: 20px 0 0 30px;
-        text-align: left;
-        width: 350;
-    }
-    header .titre h2 
-    {
-        font-size: 20px;
-    }
-    header .titre p
-    {
-        /* font-size: 14px; */
-        /* margin: 10px 50px 10px ; */
-    }
-    .container
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
-} 
+    display: flex;
+    justify-content: space-between;
+}

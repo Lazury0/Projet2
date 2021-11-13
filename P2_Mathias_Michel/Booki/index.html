@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/section_results.css" />
     <link rel="stylesheet" type="text/css" href="css/section_activites.css" />
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
-    <!-- <link rel="stylesheet" type="text/css" href="css/media-queries-test.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/media-queries-test.css" />
     <script src="https://kit.fontawesome.com/e7ead42139.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,7 @@
     <div class="container">
         <header>
             <div class="tete">
-                <img src="images/logo/Booki.png" alt="logo Booki">
+                <a href="#"><img src="images/logo/Booki.png" alt="logo Booki"></a>
                 <nav>
                     <ul class="navigation">
                         <li class="hebergements">
@@ -51,7 +51,7 @@
                 <i class="fas fa-map-marker-alt"></i>
                 <input class="barre" type="search" value="Marseille, France">
                 <button class="button" type="submit"><span>Rechercher</span><i class="fas fa-search"></i></button>
-                
+
             </div>
             <div class="filter">
                 <h4>
@@ -63,12 +63,11 @@
                 <button><span><i class="fas fa-dog"></i></span> Animaux autorisés</button>
             </div>
         </section>
-
-        <span><i class="fas fa-info"></i>
-            <small>
-                Plus de 500 logements sont disponibles dans votre ville
-            </small>
-        </span>
+        <div class="plus-de-logements-dispo">
+            <span><i class="fas fa-info"></i>
+                    Plus de 500 logements sont disponibles dans votre ville
+            </span>
+        </div>
 
         <!-------- section_results.css -------->
 
@@ -168,10 +167,11 @@
                             </div>
                         </a>
                     </div>
-                    <a class="afficherplus" href="#">
-                        <h4>Afficher plus</h4>
-                    </a>
+
                 </div>
+                <a class="afficherplus" href="#">
+                    <h4>Afficher plus</h4>
+                </a>
             </div>
 
             <!------ section_results.css ==> Les plus populaires ------>
@@ -235,55 +235,57 @@
         <!------------------Activités------------->
 
         <section id="activites">
-            <h2>Activités à Marseille</h2>
-            <div class="sectionactivites">
-                <div class="card-activites">
-                    <a class="vieuxport" href="#">
-                        <div class="activitescard">
-                            <div class="cardimg vieux-port"></div>
-                            <h4>Vieux Port</h4>
-                        </div>
-                    </a>
-                </div>
-                <div class="card-activites">
-                    <a class="pomegues" href="#">
-                        <div class="activitescard">
-                            <div class="cardimg fort-pomegues"></div>
-                            <h4>Fort de Pomègues</h4>
-                        </div>
-                    </a>
-                </div>
-                <div class="card-activites">
-                    <a class="frioul" href="#">
-                        <div class="activitescard">
-                            <div class="cardimg iles-frioul"></div>
-                            <h4>Îles de Frioul</h4>
-                        </div>
-                    </a>
-                </div>
-                <div class="card-activites">
-                    <a class="calanques" href="#">
-                        <div class="activitescard">
-                            <div class="cardimg national-calanques"></div>
-                            <h4>Parc National des Calanques</h4>
-                        </div>
-                    </a>
-                </div>
-                <div class="card-activites">
-                    <a class="lagarde" href="#">
-                        <div class="activitescard">
-                            <div class="cardimg notre-dame-de-la-garde"></div>
-                            <h4>Notre-Dame-de-la-Garde</h4>
-                        </div>
-                    </a>
-                </div>
-                <div class="card-activites">
-                    <a class="longchamp" href="#">
-                        <div class="activitescard">
-                            <div class="cardimg parc-longchamp"></div>
-                            <h4>Parc Longchamp</h4>
-                        </div>
-                    </a>
+            <div class="container-activites">
+                <h2>Activités à Marseille</h2>
+                <div class="sectionactivites">
+                    <div class="card-activites">
+                        <a class="vieuxport" href="#">
+                            <div class="activitescard">
+                                <div class="cardimg vieux-port"></div>
+                                <h4>Vieux Port</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-activites">
+                        <a class="pomegues" href="#">
+                            <div class="activitescard">
+                                <div class="cardimg fort-pomegues"></div>
+                                <h4>Fort de Pomègues</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-activites">
+                        <a class="frioul" href="#">
+                            <div class="activitescard">
+                                <div class="cardimg iles-frioul"></div>
+                                <h4>Îles de Frioul</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-activites">
+                        <a class="calanques" href="#">
+                            <div class="activitescard">
+                                <div class="cardimg national-calanques"></div>
+                                <h4>Parc National des Calanques</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-activites">
+                        <a class="lagarde" href="#">
+                            <div class="activitescard">
+                                <div class="cardimg notre-dame-de-la-garde"></div>
+                                <h4>Notre-Dame-de-la-Garde</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card-activites">
+                        <a class="longchamp" href="#">
+                            <div class="activitescard">
+                                <div class="cardimg parc-longchamp"></div>
+                                <h4>Parc Longchamp</h4>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>

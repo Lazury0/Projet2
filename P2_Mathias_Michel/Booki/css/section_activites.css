@@ -5,12 +5,15 @@
 .sectionactivites
 {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     align-content: space-between;
     justify-content: space-between;
     height: 445px;
     margin-top: 24px;
+}
+.container-activites
+{
+    width: auto;
 }
 .card-activites
 {
@@ -72,62 +75,4 @@
 .card-activites h4
 {
     padding: 15 20;
-}
-
-
-
-
-
-/* TEST MEDIA QUERIES */
-
-
-
-
-@media all and (max-width: 1200px)
-{
-    #activities h2 
-    {
-        padding-left: 20px;
-    }
-    .sectionactivites 
-    {
-        flex-direction: row;
-        justify-content: space-evenly;
-        height: auto;
-    }
-    .activiescard h4 
-    {
-        padding: 16.5px 22px;
-    }
-    .cardimg 
-    {
-        width: 334px;
-        height: 134px !important;
-    }
-}
- 
-@media all and (min-width: 1024px) and (max-width: 1200px)
-{
-    .cardimg 
-    {
-        width: 324px;
-    }
-}
- 
-@media all and (min-width: 768px) and (max-width: 1200px)
-{
-    .sectionactivites 
-    {
-        justify-content: space-between;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-}
- 
-@media all and (min-width: 320px) and (max-width: 767px) 
-{
-    .cardimg 
-    {
-        width: 318px;
-    }
 }
