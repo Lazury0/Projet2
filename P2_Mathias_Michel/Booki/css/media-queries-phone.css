@@ -1,0 +1,278 @@
+
+/* HEADER */
+
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+    .container
+    {
+         display: flex;
+         flex-wrap: wrap;
+    }
+   header img
+   {
+       display: flex;
+       padding: 30 0 0 0;
+       justify-content: center;
+       max-height: 70px;
+       padding-left: 50;
+   }
+   header .titre 
+   {
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: center;
+        margin: 30px 10 0 0;
+        width: 80%;
+   }
+   header .titre h2 
+   {
+       font-size: 22px;
+   }
+   header .titre p
+   {
+       font-size: 15x;
+   }
+   header
+   {
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+} 
+
+
+/* NAVBAR */
+
+@media screen and (min-width: 320px) and (max-width: 767px)
+{
+    .tete
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header nav
+    {
+      font-size: 18px;
+      justify-content: space-evenly;
+      margin: 20px 0 0 0;
+    }
+    header nav ul
+  {
+      margin-left: -90px;
+  }
+    header nav ul li
+  {
+      padding-left: 90px;
+  }
+    header nav ul li a:hover 
+  {
+      border-bottom: solid 3px var(--color1);
+      border-top: none;
+  }
+    header nav li a 
+  {
+    padding-bottom: 10px;
+  }
+}
+
+/* SEARCH */
+
+@media all and (min-width: 320px) and (max-width: 767px) 
+{
+    #search
+    {
+        margin: 15px 5px 5px 5px;
+        display: block;
+        flex-direction: column;
+        width: 100%;
+    }
+    .search .button 
+    {
+        display: block;
+        width: 51px;
+        height: 51px;
+        border-radius: 15px;
+    }
+    .search .button span
+    {
+        display: none;
+    }
+    .search .button .fa-search 
+    {
+        display: block;
+    }
+    .search
+    {
+        justify-content: center;
+        
+    }
+    .barre
+    {
+        width: 300;
+    }
+    .filter 
+    {
+        padding: 0 10px;
+        justify-content: space-between;
+    }
+    .filter button 
+    {
+        margin: 0 10px 12px 0;
+        font-size: 17px;
+    }
+    .filter h4
+    {
+        font-size: 18px;
+        flex-basis: 100%;
+        padding-bottom: 10px;
+    }
+    .plus-de-logements-dispo
+    {
+        padding: 0 15px 0 25px;
+    }
+}
+
+/* SECTION RESULTS */
+
+@media all and (min-width: 320px) and (max-width: 767px) 
+{
+    #results
+    {
+        flex-direction: column-reverse;
+    }
+    #results p{
+        font-size: 15;
+    }
+    .results h2
+    {
+        margin: 5px 10px 10px 15px;
+    }
+    .populaires 
+    {
+        display: flex;
+        width: 90%;
+        background-color: var(--color3);
+        border-radius: 0;
+        border: none;
+    }
+    .resultscadrespop
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 150;
+        margin: 30 0 0 -5;
+    }
+    .containpopulaires
+    {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .fleche
+    {
+        justify-content: space-evenly;
+    }
+    .imgpop
+    {
+        width: 50%;
+    }
+    .cardpop h4
+    {
+        font-size: 18;
+    }
+    .card h4
+    {
+        font-size: 20;
+    }
+    .cardpop
+    {
+        left: 100%;
+    }
+    .fa-star
+    {
+        padding-top: 20;
+        font-size: 14px;
+    }
+    .results 
+    {
+        align-self: center;
+        width: 90%;
+        padding: 10px 0 20px 0;
+        background-color: transparent;
+        border: none;
+    }
+    .resultscadres
+    {
+        height: 190;
+    }
+    .afficherplus
+    {
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .containerresults
+    {
+        flex-flow: column wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .resultscadres
+    {
+        width: 300;
+    }
+    .card p
+    {
+        margin: 0 0 6 0;
+    }
+    .card .star
+    {
+        top: -20px;
+    }
+}
+
+/* SECTION ACTIVITES */
+
+ @media all and (min-width: 320px) and (max-width: 767px) 
+ {
+    .sectionactivites 
+    {
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: auto;
+            margin-top: 0;
+    }
+    .cardimg
+    {
+        width: 320px;
+        height: 150;
+    }
+    .card-activites
+    {
+        margin: 10px 0px;
+    }
+    .activitescard h4
+    {
+        font-size: 18px;
+    }
+    .container-activites h2
+    {
+        margin-left: 45px;
+    }
+}
+
+/* FOOTER */
+
+@media all and (min-width: 320px) and (max-width: 767px)
+{
+    .footercolumn
+    {
+        margin-right: 0;
+    }
+    .footer
+    {
+        flex-direction: column;
+    }
+}

@@ -6,10 +6,13 @@
     padding: 10px;
     color: var(--color1);
     background-color: white;
-    margin-bottom: 20px;
     width: 8;
     height: 8;
     text-align: center;
+}
+.plus-de-logements-dispo
+{
+    margin-bottom: 20px;
 }
 
 .cannebiere
@@ -59,16 +62,11 @@
     width: 62%;
     padding: 25px;
     background-color: var(--color3);
-	/* align-content: space-around; */
 }
 #results p
 {
     font-size: 14px;
 }
-/* #results h4
-{
-    font-weight: 900;
-} */
 .containerresults
 {
     display: flex;
@@ -96,7 +94,6 @@
     position: relative;
     top: 115;
     padding: 5 5 5 7;
-    /* border: 1px solid white; */
 }
 .card p
 {
@@ -157,12 +154,6 @@
     display: flex;
     justify-content: space-between;
 }
-/* .populaires h2::after
-{     
-    font-family: "Font Awesome 5 Free";
-    content: "\f201";
-    font-weight: 600;
-} */
 .populaires .fa-chart-line
 {
     font-size: 140%;
@@ -174,7 +165,7 @@
     background-color: white;
     margin: 30 0 0 20;
     border-radius: 15px;
-    width: 350;
+    max-width: 350;
     height: 134px;
     padding: 5px;
     box-shadow: 0px 0px 13px 0px rgb(0 0 0 / 25%);
@@ -214,4 +205,32 @@
     position: absolute;
     top: 100px;
 
+}
+@media screen and (min-width: 1065px) and (max-width: 1220px) 
+{
+    .resultscadrespop
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 975px) and (max-width: 1065px) 
+{
+    .resultscadres
+    {
+        width: 45%;
+    }
+    .containerresults
+    {
+        justify-content: space-evenly;
+    }
+    .results
+    {
+        width: 50%;
+        margin-right: 30px;
+    }
+    .populaires
+    {
+        width: 40%;
+    } 
 }

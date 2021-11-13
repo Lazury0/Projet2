@@ -1,14 +1,11 @@
 /* HEADER */
-/* TABLETTES */
 @media screen and (min-width: 768px) and (max-width: 992px)
 {
-   header 
-   {
-       /* display: flex; */
-       /* justify-content: space-between; */
-       /* align-items: center; */
-       /* margin-top: 30px; */
-   }
+    .container
+    {
+         display: flex;
+         flex-wrap: wrap;
+    }
    header img
    {
        padding: 10 20;
@@ -16,8 +13,8 @@
    header .titre 
    {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-flow: wrap column;
+        align-items: center;
         margin-top: 30px;
    }
    header .titre h2 
@@ -28,47 +25,13 @@
    {
        font-size: 18px;
    }
-   .container
+   header
    {
-        display: flex;
-        flex-wrap: wrap;
-
+       width: 100%;
    }
 }
-/* MOBILES */
-@media screen and (max-width: 767px)
-{
-    header 
-    {
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 30px;
-    }
 
-    header img
-    {
-        padding: 0 0;
-        padding-left: 50%;
-    }
-    header .titre 
-    {
-        order: 3;
-        margin: 20px 0 0 30px;
-        text-align: left;
-        width: 350;
-    }
-    header .titre h2 
-    {
-        font-size: 20px;
-    }
-    header .titre p
-    {
-        font-size: 14px;
-        margin: 10px 50px 10px ;
-    }
-} 
 /* NAVBAR */
-/* TABLETTES */
 
 @media screen and (min-width: 768px) and (max-width: 992px) 
 {
@@ -76,7 +39,7 @@
   .tete
   {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   header nav
   {
@@ -113,48 +76,9 @@
   } */
 }
 
-/* MOBILES */
-@media screen and (max-width: 767px)
-{
-  header nav
-  {
-    margin-left: 15px;
-  }
-  header nav ul
-{
-    display: flex;
-    position: relative;
-    top: 100px;
-}
-  header nav ul li
-{
-    width: 100%;
-    text-align: center;
-    justify-content: space-around;
-}
-  header nav ul li a:hover 
-{
-    border-bottom: solid 3px #0065fc;
-}
-  header nav ul li a:hover 
-{
-    border-top: none;
-}
-  header nav li a 
-{
-  padding-bottom: 10px;
-}
-  /* header nav p 
-  {
-    position: absolute;
-    top: -60px;
-    padding: 0px 25px 0px 0;
-  } */
-}
 
 /* SEARCH */
 
-/* TABLETTE */
 @media all and (min-width: 768px) and (max-width: 992px)
 {
     #search
@@ -163,12 +87,14 @@
         display: block;
         /* flex-wrap: wrap; */
         flex-direction: column;
+        width: 100%;
     }
     .search .button 
     {
         display: block;
         width: 51px;
         height: 51px;
+        border-radius: 15px;
     }
     .search .button span
     {
@@ -180,7 +106,6 @@
     }
     .search
     {
-        margin-left: 20px;
         justify-content: center;
     }
     .barre
@@ -208,19 +133,9 @@
     }
 }
 
-/* MOBILES */
-@media all and (min-width: 320px) and (max-width: 767px) 
-{
-    .filter
-    {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-}
+
 /* SECTION RESULTS */
-/* TABLETTES */
-@media all and (min-width: 768px) and (max-width: 991px)
+@media all and (min-width: 768px) and (max-width: 992px)
 {
     #results
     {
@@ -263,7 +178,7 @@
     }
     .cardpop h4
     {
-        font-size: 20;
+        font-size: 18;
     }
     .card h4
     {
@@ -271,7 +186,7 @@
     }
     .cardpop
     {
-        left: 250;
+        left: 100%;
     }
     .fa-star
     {
@@ -312,34 +227,9 @@
         top: -20px;
     }
 }
-/* MOBILES */
-@media all and (min-width: 320px) and (max-width: 767px) 
-{
-    .populaires
-    {
-        width: auto;
-        margin: 0;
-    }
-    .results
-    {
-        margin: 0;
-    }
-    .cardpopulaires 
-    {
-        width: 306px;
-    }
-    .populaires .fa-chart-line 
-    {
-        margin-left: 30px;
-    }
-    .imgc 
-    {
-        width: 306px;
-    }
-}
+
 /* SECTION ACTIVITES */
-/* TABLETTES */
-@media all and (min-width: 768px) and (max-width: 991px)
+@media all and (min-width: 768px) and (max-width: 992px)
 {
     .sectionactivites 
     {
@@ -366,16 +256,9 @@
         margin-left: 45px;
     }
 }
- /* MOBILES */
-@media all and (min-width: 320px) and (max-width: 767px) 
-{
-    .cardimg 
-    {
-        width: 318px;
-    }
-}
+
 /* FOOTER */
-@media all and (min-width: 768px) and (max-width: 991px)
+@media all and (min-width: 768px) and (max-width: 992px)
 {
     .footercolumn
     {
