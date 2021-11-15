@@ -12,12 +12,12 @@ footer
 }
 .footercolumn
 {
-    margin-right: 200;
+    margin-right: 200px;
 }
 .footercolumn ul li
 {
     list-style-type: none;
-    margin: 20 0;
+    margin: 20px 0;
 }
 .footercolumn ul li a
 {

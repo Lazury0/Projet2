@@ -8,7 +8,7 @@
     }
    header img
    {
-       padding: 10 20;
+       padding: 10px 20px;
    }
    header .titre 
    {
@@ -95,6 +95,7 @@
         width: 51px;
         height: 51px;
         border-radius: 15px;
+        margin-left: -9px;
     }
     .search .button span
     {
@@ -110,7 +111,7 @@
     }
     .barre
     {
-        width: 300;
+        width: 300px;
     }
     .filter 
     {
@@ -142,7 +143,7 @@
         flex-direction: column-reverse;
     }
     #results p{
-        font-size: 18;
+        font-size: 18px;
     }
     .results h2
     {
@@ -160,7 +161,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 70%;
-        height: 150;
+        height: 150px;
     }
     .containpopulaires
     {
@@ -178,11 +179,11 @@
     }
     .cardpop h4
     {
-        font-size: 18;
+        font-size: 18px;
     }
     .card h4
     {
-        font-size: 20;
+        font-size: 20px;
     }
     .cardpop
     {
@@ -190,7 +191,7 @@
     }
     .fa-star
     {
-        padding-top: 20;
+        padding-top: 20px;
         font-size: 14px;
     }
     .results 
@@ -201,7 +202,7 @@
     }
     .resultscadres
     {
-        height: 190;
+        height: 190px;
     }
     .afficherplus
     {
@@ -216,11 +217,11 @@
     }
     .resultscadres
     {
-        width: 300;
+        width: 300px;
     }
     .card p
     {
-        margin: 0 0 6 0;
+        margin: 0 0 6px 0;
     }
     .card .star
     {
@@ -241,7 +242,7 @@
     .cardimg
     {
         width: 320px;
-        height: 150;
+        height: 150px;
     }
     .card-activites
     {
